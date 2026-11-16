@@ -1,0 +1,19 @@
+# Umgebungsvariablen
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Secrets
+secrets/
+secret/
+*.secret
+*.secrets
+secrets.*
+!secrets.example.*
+
+# Schlüssel und Zertifikate
+*.pem
+*.key
+*.p12
+*.pfx
